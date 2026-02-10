@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo-section{
+    display: flex;                          
+    align-items: center;
+    padding: 20px;
+}
+.logo-section img {
+  width: 80px;
+  margin-left: 10px;
+}
+.logo-section h1{
+    color:white;
+    font-size: 30px;
+    margin-left: 5px;
+
+}
+input{
+    margin-left: 50px;
+    width: 800px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.explore{
+   font-style: italic;
+   font-size: 15px;
+   padding-left: 20px;
+   color: yellowgreen;  
+   font-weight: 100px;
+  }
+.logo-section{
+    background-color: #2874f0;
+    width: 100%;
+    
+}
+.login{
+    margin-left: 40px;
+    gap: 20px;
+    width: 90px;
+    height:30px ;
+    font-size: 15px;
+    background-color:aquamarine;
+}
+.cart{
+    margin-left: 110px;
+    gap: 20px;
+    width: 90px;
+    height:30px ;
+    font-size: 15px;
+    background-color:aquamarine;
+    border-radius: 100px;
+}
+.navbar{
+    background: #f1f1f1;
+    padding: 15px;
+
+}
+.navbar a{
+    padding-left: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.container{
+    margin-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px;
+}
+.item{
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: white;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px;
+}
+.item img{
+    width: 120px;
+    height: 170px;
+    object-fit: contain;
+}
+p{
+    font-weight: bold;
+}
