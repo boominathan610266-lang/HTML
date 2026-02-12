@@ -23,9 +23,9 @@ body{
 input{
     margin-left: 50px;
     width: 800px;
-    padding: 10px;
+    padding: 6px;
     font-size: 16px;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 .explore{
    font-style: italic;
@@ -81,15 +81,32 @@ input{
     text-align: center;
     box-sizing: border-box;
     background-color: white;
-    border: 2px solid yellow;
+    border: 2px solid grey;
     border-radius: 20px;
     box-shadow: 0 4px 10px;
 }
 .item img{
-    width: 120px;
-    height: 170px;
+    width: 200px;
+    height: 180px;
     object-fit: contain;
 }
-p{
-    font-weight: bold;
+.title{
+    font-size: 13px bold;
+    margin-top: 5px;
+}
+.offer{
+    color: green;
+    margin-top: 5px;
+}
+.org-price{
+    text-decoration: line-through;
+    margin-top: 5px;
+}
+.rating{
+    color: green;
+    margin-top: 5px;
+}
+h2{
+    font-size: 20px;
+    margin-top: 5px;
 }

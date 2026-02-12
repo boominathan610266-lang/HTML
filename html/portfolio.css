@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: blue;
+}
+.clm{
+    background-color: skyblue;
+    border: 3px solid white;
+    border-radius: 20px;
+    overflow-y: auto;
+    max-height: 50px ;
+} 
